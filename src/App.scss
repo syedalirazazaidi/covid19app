@@ -1,0 +1,87 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  //  overflow: hidden;
+  background-color: grey;
+}
+.mapbox-logo {
+  display: none;
+}
+.mapboxgl-ctrl-logo {
+  display: none !important;
+}
+.mapbox-improve-map {
+  display: none;
+}
+.mapboxgl-ctrl-compass {
+  display: none;
+}
+
+/*  Make our map take the full viewport - 100% */
+#root,
+.App,
+.mapContainer,
+.mapBox {
+  width: 95%;
+  height: 95%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 30px;
+  // padding-right: 50px 50px;
+  border-radius: .5rem;
+}
+
+/* Tooltip code */
+.mapboxgl-popup {
+  font-family: "Baloo Thambi 2", cursive;
+  font-size: 8px;
+  padding: 0;
+  margin: 0;
+  color: #424242;
+}
+
+.mapboxgl-popup-content {
+  padding: 1rem;
+  margin: 0;
+
+  > * {
+    margin: 0 0 0.5rem;
+    padding: 0;
+  }
+
+  p {
+    border-bottom: 1px solid rgba(black, 0.2);
+
+    b {
+      font-size: 1.6rem;
+      color: #212121;
+      padding: 0 5px;
+    }
+  }
+  img {
+    width: 5rem;
+    height: 6rem;
+  }
+}
+.navlink {
+  list-style-type: none;
+}
+
+@media  (max-width: 770px) {
+  .App,
+  .mapContainer,
+  .mapBox {
+    width: 100%;
+    margin-left: -5px;
+    margin-right:10px ;
+    // margin: 2% 5%;
+    // margin-left: 1px 0;
+    
+    justify-content: center;
+    // margin: 20% auto !important;
+    align-items: center;
+  }
+}

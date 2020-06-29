@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    height: 65%;
+    max-width: '50px';
+    color: aliceblue;
+  }
+  
+  @media only screen and (max-width: 770px) {
+    .container {
+      width: 100%;
+    }
+  }

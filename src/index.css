@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.corona{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+/* margin:'15% auto 0'; */
+width: 100px;
+text-align: center;  
+height: 100px;
+margin-top: 5%;
+font-size: 40px;
+ margin-left: 680px; 
+padding:5px;
+-webkit-animation: spin 25s linear infinite;
+-o-animation: spin 25s linear infinite;
+animation: spin 25s linear infinite;
+}
+@keyframes spin {
+  
+from {
+  -webkit-animation: rotate(0deg);
+  -moz-animation: rotate(0deg);
+  -o-animation: rotate(0deg);
+  transform:rotate(0deg) ;
+}
+to{-webkit-animation: rotate(360deg);
+  -moz-animation: rotate(360deg);
+  -o-animation: rotate(360deg);
+  transform:rotate(360deg) ;
+
+}
+
+}
+@media  (max-width: 770px){
+  .corona{
+    margin-left: 135px;
+  }
+}
