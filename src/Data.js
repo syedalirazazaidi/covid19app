@@ -10,7 +10,7 @@ export const Data_Table = ({country,data}) => {
 					<tr>
 						<th>Country</th>
 						<th>Infected</th>
-						<th>Recovered</th>
+						<th>Recovere</th>
 						<th>Deaths</th>
 					</tr>
 				</thead>
