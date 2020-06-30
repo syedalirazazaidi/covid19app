@@ -9,7 +9,7 @@ import logo from './virus.png';
 ReactDOM.render(
   <React.StrictMode>
     <img className="corona" src={logo} alt="Logo" />
-    <h1 style={{textAlign:"center",margin:'1rem auto',color:'red'}}>COVID19 TRACKER-APP</h1>
+    <h1 style={{textAlign:"center",margin:'1rem auto',color:'red'}}>COVID19-TRACKER-APP</h1>
     <Map />
     <Header />
     {/* <All_Data/> */}
