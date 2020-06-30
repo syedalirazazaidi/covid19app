@@ -14,7 +14,6 @@
     "mapbox-gl": "^1.11.0",
     "material-table": "^1.60.0",
     "material-ui": "^0.20.2",
-    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-bar-chart": "^0.1.2",
     "react-chartjs-2": "^2.9.0",
