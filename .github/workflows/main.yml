@@ -26,9 +26,6 @@ jobs:
       uses: actions/setup-node@v2-beta
       with:
         version: 10
-    - name: Sass Build
-      uses: gha-utilities/sass-build@v0.2.5
-     
     - name: Github Action for Yarn
       uses: Borales/actions-yarn@v2.0.0
       with:
