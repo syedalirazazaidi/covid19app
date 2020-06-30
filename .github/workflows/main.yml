@@ -28,8 +28,7 @@ jobs:
         version: 10
     - name: Sass Build
       uses: gha-utilities/sass-build@v0.2.5
-      with:
-       cmd : install
+     
     - name: Github Action for Yarn
       uses: Borales/actions-yarn@v2.0.0
       with:
